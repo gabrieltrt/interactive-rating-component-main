@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+    background-color: #131518;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+main {
+    max-width: 20.4375rem;
+    background-color: #232A34;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.thks-container {
+    display: none;
+    padding: 2.125rem 1.5rem 2.3125rem 1.5rem
+}
+
+
+.rating-container {
+    padding: 1.5rem 1.375rem 2rem 1.5rem;
+}
+
+.star-container {
+    background-color: #262E38;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.star-container img {
+    width: 0.8725rem;
+}
+
+.rating-container h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.0625rem;
+}
+
+p {
+    color: #969FAD;
+    font-size: 0.875rem;
+    
+}
+
+.rating-paragraph{
+    margin-bottom: 1.5rem;
+}
+
+.rating {
+    display: flex;
+    gap: 18px;
+    color: #7C8798;
+    margin-bottom: 1.5rem;
+}
+
+.circle {
+    background-color: #262E38;
+    height: 2.625rem;
+    width: 2.625rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    text-transform: uppercase;
+    border: none;
+    border-radius: 22.5px;
+    padding: 0.75rem 6.7438rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 1.87px;
+    background-color: #FC7614;
+    color: #FFFFFF;  
+} 
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.visible img {
+    width: 9rem;
+    margin-bottom: 1.5rem;
+}
+
+.rating-result {
+    color: #FC7614;
+    background-color: #262E38;
+    border-radius: 22px;
+    padding: 0.3438rem 1.1375rem;
+}
+
+.thks-container h2 {
+    margin-bottom: 1.0625rem;
+}
+
+.appreciate {
+    text-align: center;
+}
+
+.circle:hover {
+    background-color: #7C8798;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #FC7614;
+    cursor: pointer;
+}
+
+.selecionado {
+    background-color: #FC7614;
+    color: #FFFFFF;
+}
